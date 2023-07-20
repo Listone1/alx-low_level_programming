@@ -24,7 +24,7 @@ int main(void)
 		else
 			printf("%i", i);
 		if (i < 100)
-			_putchar(' ');
+			printf(" ");
 	}
 	printf("\n");
 	return (0);
