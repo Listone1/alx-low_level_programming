@@ -1,14 +1,14 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * create array char - create array of size size and assign char c
+ * create_array  - create array of size size and assign char n
  * @size: size of array
  * @c: char to assign
- * Description: create array of size size and assign char c
+ * Description: create array of size size and assign char n
  * Return: pointer to array, NULL if fail
  *
  */
-char *create array char (unsigned int size, char c)
+char *create_array(unsigned int size, char n)
 {
 	char *str;
 	unsigned int i;
